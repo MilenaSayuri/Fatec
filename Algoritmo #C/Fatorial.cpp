@@ -5,8 +5,9 @@ int main() {
     scanf("%d", &n);
  
     fat = n;
-    for(i=1; i<n; i++){ fat = fat*i; }
-    
-    printf("\nO fatorial de %d é %d", n, fat);
+    for(i=1; i<n; i++){ 
+        fat = fat*i; 
+    }
+    printf("\nO fatorial de %d eh %d", n, fat);
     return 0;
 }
